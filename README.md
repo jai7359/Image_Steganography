@@ -77,3 +77,7 @@ This project is a simple image steganography tool built using Python and Tkinter
 -   Improve error handling and user feedback.
 -   Add progress bars for encoding and decoding processes.
 -   Add the ability to change the key.
+
+
+![image](https://github.com/user-attachments/assets/e045aeb2-8747-45a8-9740-f02321378076)
+
