@@ -54,3 +54,26 @@ This project is a simple image steganography tool built using Python and Tkinter
 6.  **Show Data:** To reveal the hidden message, open the encoded image, enter the correct password, and click the "Show Data" button.
 
 ## Project Structure
+<project_directory>/
+├── <your_script_name>.py     # Main Python script
+├── D:/img1/O.jpg               # Background Image
+├── D:/img1/1.png               # Logo Image
+└── ...
+
+
+## Notes
+
+-   The default password is "1234".
+-   The end marker "###" is used to identify the end of the hidden message.
+-   Make sure to save the encoded image after hiding the message.
+-   The quality of the encoded image may be affected slightly due to the LSB modification.
+-   This is a basic implementation of LSB steganography and may not be suitable for sensitive data.
+
+## Future Improvements
+
+-   Implement stronger encryption algorithms.
+-   Add support for hiding files instead of just text.
+-   Enhance the GUI with more advanced features.
+-   Improve error handling and user feedback.
+-   Add progress bars for encoding and decoding processes.
+-   Add the ability to change the key.
